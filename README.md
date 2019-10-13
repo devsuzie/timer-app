@@ -12,5 +12,5 @@
 - display lap time stamp
 - display total spend time
 
-## :open_file_folder: Language
+## :globe_with_meridians: Language
 - Vanilla JavaScript
