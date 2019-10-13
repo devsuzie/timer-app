@@ -1,4 +1,4 @@
-# Javascript Todo App
+# Javascript Timer App
 ![timer-app](/images/github.jpg)
 
 ## :earth_americas: Live Demo
@@ -14,4 +14,3 @@
 
 ## :open_file_folder: Language
 - Vanilla JavaScript
-# timer-app
