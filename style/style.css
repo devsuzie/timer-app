@@ -1,0 +1,135 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir';
+}
+
+body {
+  margin: 0 auto;
+  padding: 5em 2em 2em;
+  max-width: 450px;
+  background-color: #17294D;
+}
+
+p {
+  margin: 0;
+}
+
+.stopwatch-container {
+  margin: 2em 0 5em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.stopwatch-container .stopwatch {
+  margin-bottom: .5em;
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.stopwatch-container .button .start {
+  display: inline-block;
+}
+
+.stopwatch-container .button button {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  font-size: 1em;
+  font-weight: 100;
+  letter-spacing: .1em;
+  border-radius: 15px;
+  line-height: 30px;
+  height: 30px;
+  padding: 0 1em;
+}
+
+.stopwatch-container .button button:first-of-type {
+  margin-right: .2em;
+}
+
+.stopwatch-container .button button:last-of-type {
+  margin-left: .2em;
+}
+
+.stopwatch-container .button button:hover {
+  background-color: #ffffff;
+  color: #17294D;
+  font-weight: 300;
+}
+
+.lab-container {
+  position: relative;
+}
+
+.lab-container .list {
+  display: none;
+  color: #17294D;
+  list-style: none;
+  background-color: #E9EDF7;
+  border-radius: 20px;
+  padding: 30px 15px;
+}
+
+.lab-container .list li {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 1em;
+  margin-bottom: 1.2em;
+}
+
+.lab-container .list li:last-of-type {
+  margin-bottom: 0;
+}
+
+.lab-container .list li p {
+  display: inline-block;
+  padding: 0 1.5em;
+}
+
+.lab-container .list li span {
+  font-weight: 600;
+}
+
+.lab-container .summary {
+  color: #ffffff;
+  text-align: center;
+  background-color: #17294D;
+  letter-spacing: .05em;
+  font-size: 1.2em;
+  font-weight: 100;
+  padding: 1.5em 0;
+}
+
+.lab-container .summary span {
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: 900;
+  opacity: 1;
+}
+
+@media (max-width: 450px) {
+  body {
+    padding: 4em 2em 2em;
+  }
+  .stopwatch-container {
+    margin: 0;
+    margin-bottom: 3em;
+  }
+  .stopwatch-container .stopwatch {
+    font-size: 3em;
+  }
+  .lab-container .list {
+    padding: 15px 10px;
+  }
+  .lab-container .list li {
+    font-size: .8em;
+  }
+  .lab-container .summary {
+    font-size: 1em;
+  }
+}
+/*# sourceMappingURL=style.css.map */

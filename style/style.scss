@@ -1,0 +1,147 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir'
+}
+
+body {
+    margin: 0 auto;
+    padding: 5em 2em 2em;
+    max-width: 450px;
+    background-color: #17294D;
+}
+
+p {
+    margin: 0;
+}
+
+.stopwatch-container {
+
+    margin: 2em 0 5em;
+    text-align: center;
+    color: #ffffff;
+
+    .stopwatch {
+        margin-bottom: .5em;
+        font-size: 4em;
+        font-weight: 900;
+    }
+
+    .button {
+
+        .start {
+            display: inline-block;
+        }
+        
+        button {
+
+            color: #ffffff;
+            background-color: rgba( 255, 255, 255, 0.2);
+            border: none;
+            font-size: 1em;
+            font-weight: 100;
+            letter-spacing: .1em;
+            border-radius: 15px;
+            line-height: 30px;
+            height: 30px;
+            padding: 0 1em;
+
+            &:first-of-type{
+                margin-right: .2em
+            }
+
+            &:last-of-type{
+                margin-left: .2em
+            }
+
+            &:hover {
+                background-color: #ffffff;
+                color: #17294D;
+                font-weight: 300;
+            }
+        }
+
+    }
+}
+
+.lab-container {
+    position: relative;
+
+    .list {
+        display: none;
+        color: #17294D;
+        list-style: none;
+        background-color: #E9EDF7;
+        border-radius: 20px;
+        padding: 30px 15px;
+
+        li {
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 10px;
+            height: 40px;
+            line-height: 40px;
+            padding: 0 1em;
+            margin-bottom: 1.2em;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            p {
+                display: inline-block;
+                padding: 0 1.5em;
+            }
+
+            span {
+                font-weight: 600
+            }
+        }
+    }
+
+    .summary {
+        color: #ffffff;
+        text-align: center;
+        background-color: #17294D;
+        letter-spacing: .05em;
+        font-size: 1.2em;
+        font-weight: 100;
+        padding: 1.5em 0;
+        
+
+        span{
+            display: inline-block;
+            font-size: 1.3em;
+            font-weight: 900;
+            opacity: 1;
+        }
+    }
+}
+
+@media (max-width: 450px){
+    body{
+        padding: 4em 2em 2em;
+    }
+
+    .stopwatch-container{
+        margin: 0;
+        margin-bottom: 3em;
+
+        .stopwatch{
+            font-size: 3em;
+        }
+    }
+
+    .lab-container{
+        .list{
+            padding: 15px 10px;
+            li{
+                font-size: .8em
+            }
+        }
+
+        .summary{
+            font-size: 1em;
+        }
+    }
+}
